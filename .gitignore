@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+EOF
